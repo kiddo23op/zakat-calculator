@@ -80,7 +80,7 @@ input[type="text"] {
 
 .subsection input {
   margin-bottom: 20px;
-  width: 55%;
+ /* width: 55%;*/
 }
 
 button {
