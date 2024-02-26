@@ -1,0 +1,152 @@
+body {
+  font-family: Garamond, serif;
+  background-image: url("kuku.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column; /* Added for vertical alignment */
+}
+
+.container {
+  background: linear-gradient(0.25turn, #fdffae, #e9ffc2, #c3edc0);
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px; /* Added to create space between content and calculator */
+}
+.heading {
+  font-family: Sofia, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+.faq {
+  margin: 10px 20px 30px 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 14px 1px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.section-heading {
+  font-family: "Trirong", serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.subsection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.subsection label {
+  width: 45%;
+}
+
+.subsection input {
+  margin-bottom: 20px;
+  width: 55%;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  margin: auto;
+  padding: 20px 47px 25px 46px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#myModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#zakatResult {
+  text-align: center;
+}
+
+/* .glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 0.5s ease-in-out infinite alternate;
+} */
+
+/* @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px black, 0 0 40px pink,
+      0 0 50px yellow, 0 0 60px black, 0 0 70px red;
+  }
+
+  to {
+    text-shadow: 0 0 20px #c3edc0, 0 0 30px #35a29f, 0 0 40px red,
+      0 0 50px #0079ff, 0 0 60px violet, 0 0 70px #40128b, 0 0 80px #ff4da6;
+  }
+} */
