@@ -43,6 +43,8 @@ font-size:15px;}
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .p2{
+font-size:20px;}
 }
 /* Extra Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
