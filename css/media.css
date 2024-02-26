@@ -3,6 +3,13 @@
   .container {
     max-width: 90%;
   }
+  .subsection label {
+    width: 100%;
+}
+.subsection input {
+    margin-bottom: 11px;
+    width: 100%;
+}
   .logo {
     width: 120px;
     margin: 20px 0px;
