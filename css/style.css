@@ -36,6 +36,7 @@ h1 {
 }
 .faq {
   margin: 10px 20px 30px 40px;
+  background-color: white;
 }
 form {
   display: flex;
