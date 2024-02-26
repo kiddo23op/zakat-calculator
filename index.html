@@ -71,91 +71,45 @@
           <label for="nisab">Nisab:</label>
           <input type="number" id="nisab" readonly />
         </div>
-        <div class="field">
-          <h2 class="section-heading">Cash</h2>
-          <div class="subsection">
-            <label for="cashInHome">Cash in Home & Banks:</label>
-            <input
-              type="number"
-              id="cashInHome"
-              placeholder="Enter amount of cash in home & banks"
-            />
-            <label for="cashForFuture"
-              >Deposited Cash(e.g., wedding, hajj):</label
-            >
-            <input
-              type="number"
-              id="cashForFuture"
-              placeholder="Enter cash deposited for future"
-            />
-            <label for="cashForInvestments"
-              >Cash In Investments Or Pensions:</label
-            >
-            <input
-              type="number"
-              id="cashForInvestments"
-              placeholder="Enter cash given for investments or pensions"
-            />
-            <label for="cashForLoans">Cash Given As loans:</label>
-            <input
-              type="number"
-              id="cashForLoans"
-              placeholder="Enter cash given as loans"
-            />
-          </div>
-        </div>
-        <div class="field">
-          <h2 class="section-heading">Silver and Gold</h2>
-          <div class="subsection">
-            <label for="silverValue">Currency Value Of Silver You Have:</label>
-            <input
-              type="number"
-              id="silverValue"
-              placeholder="Enter currency value of silver you have"
-            />
-            <label for="goldValue">Currency Value Of Gold You Have:</label>
-            <input
-              type="number"
-              id="goldValue"
-              placeholder="Enter currency value of gold you have"
-            />
-          </div>
-        </div>
-        <div class="field">
-          <h2 class="section-heading">Zakat from Stock</h2>
-          <div class="subsection">
-            <label for="stockValue">Stock Property Amount (if any):</label>
-            <input
-              type="number"
-              id="stockValue"
-              placeholder="Enter currency value of stock you have"
-            />
-          </div>
-        </div>
-        <div class="field">
-          <h2 class="section-heading">Liabilities</h2>
-          <div class="subsection">
-            <label for="taxBillsRent">Tax, Utility Bills, Rent:</label>
-            <input
-              type="number"
-              id="taxBillsRent"
-              placeholder="Enter tax, utility bills, rent"
-            />
-            <label for="employeeSalaries"
-              >Salary You Give To Your Employees:</label
-            >
-            <input
-              type="number"
-              id="employeeSalaries"
-              placeholder="Enter salary you give to your employees"
-            />
-            <label for="borrowedMoney">Amount Of Any Due Property:</label>
-            <input
-              type="number"
-              id="borrowedMoney"
-              placeholder="Enter borrowed money or amount of due property"
-            />
-          </div>
+           <div class="field">
+                <h2 class="section-heading">Cash</h2>
+                <div class="subsection">
+                    <label for="cashInHome">Cash in Home & Banks:</label>
+                    <input type="number" id="cashInHome" placeholder="Enter amount of cash in home & banks">
+                    <label for="cashForFuture">Deposited Cash(e.g., wedding, hajj):</label>
+                    <input type="number" id="cashForFuture" placeholder="Enter cash deposited for future">
+                    <label for="cashForInvestments">Cash In Investments Or Pensions:</label>
+                    <input type="number" id="cashForInvestments" placeholder="Enter investments amount">
+                    <label for="cashForLoans">Cash Given As loans:</label>
+                    <input type="number" id="cashForLoans" placeholder="Enter cash given as loans">
+                </div>
+            </div>
+            <div class="field">
+                <h2 class="section-heading">Silver and Gold</h2>
+                <div class="subsection">
+                    <label for="silverValue">Currency Value Of Silver You Have:</label>
+                    <input type="number" id="silverValue" placeholder="Enter currency value of silver">
+                    <label for="goldValue">Currency Value Of Gold You Have:</label>
+                    <input type="number" id="goldValue" placeholder="Enter currency value of gold">
+                </div>
+            </div>
+            <div class="field">
+                <h2 class="section-heading">Zakat from Stock</h2>
+				 <div class="subsection">
+                <label for="stockValue">Stock Property Amount (if any):</label>
+                <input type="number" id="stockValue" placeholder="Enter stock value you have">
+				 </div>
+            </div>
+            <div class="field">
+                <h2 class="section-heading">Liabilities</h2>
+                <div class="subsection">
+                    <label for="taxBillsRent">Tax, Utility Bills, Rent:</label>
+                    <input type="number" id="taxBillsRent" placeholder="Enter tax, utility bills, rent">
+                    <label for="employeeSalaries">Salary You Give To Your Employees:</label>
+                    <input type="number" id="employeeSalaries" placeholder="Enter salary you give to employees">
+                    <label for="borrowedMoney">Amount Of Any Due Property:</label>
+                    <input type="number" id="borrowedMoney" placeholder="Enter borrowed money amount">
+                </div>
         </div>
         <button type="button" id="calculateButton">Calculate Zakat</button>
       </form>
