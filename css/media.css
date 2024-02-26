@@ -6,6 +6,10 @@
   .subsection label {
     width: 100%;
 }
+  .faq{
+    text-align: justify;}
+  .p2{
+font-size:15px;}
 .subsection input {
     margin-bottom: 11px;
     width: 100%;
