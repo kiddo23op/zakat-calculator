@@ -133,14 +133,14 @@ button {
   text-align: center;
 }
 
-/* .glow {
+.glow {
   font-size: 80px;
   color: #fff;
   text-align: center;
   animation: glow 0.5s ease-in-out infinite alternate;
-} */
+} 
 
-/* @-webkit-keyframes glow {
+ @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px black, 0 0 40px pink,
       0 0 50px yellow, 0 0 60px black, 0 0 70px red;
@@ -150,4 +150,4 @@ button {
     text-shadow: 0 0 20px #c3edc0, 0 0 30px #35a29f, 0 0 40px red,
       0 0 50px #0079ff, 0 0 60px violet, 0 0 70px #40128b, 0 0 80px #ff4da6;
   }
-} */
+} 
