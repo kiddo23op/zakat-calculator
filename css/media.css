@@ -6,6 +6,13 @@
   .subsection label {
     width: 100%;
 }
+  .glow {
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  animation: glow 0.5s ease-in-out infinite alternate;
+}
+
   .faq{
     text-align: justify;}
   .p2{
